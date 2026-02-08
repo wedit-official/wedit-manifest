@@ -128,8 +128,8 @@ terraform.rc
 *-secret.yaml
 
 # Database credentials
-**/db-secret*.yml
-**/db-secret*.yaml
+**/rds-secret*.yml
+**/rds-secret*.yaml
 
 # ArgoCD repository secret
 argocd/*secret*.yml
