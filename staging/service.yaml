@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wedit-staging-service
+  namespace: wedit-staging
+spec:
+  selector:
+    app: wedit-staging
+  ports:
+    - port: 80
+      targetPort: 8080
