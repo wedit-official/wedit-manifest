@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: wedit
-          image: nginx:alpine
+          image: wien0128/wedit-be:0dc3ec1
           ports:
             - containerPort: 8080
           env:
