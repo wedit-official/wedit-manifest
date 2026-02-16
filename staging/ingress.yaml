@@ -4,7 +4,6 @@ metadata:
   name: wedit-staging-ingress
   namespace: wedit-staging
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
     nginx.ingress.kubernetes.io/proxy-body-size: "20m"
 spec:
   ingressClassName: nginx
