@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: wedit
-          image: wien0128/wedit-be:a871fb6
+          image: wien0128/wedit-be:de04c10
           ports:
             - containerPort: 8080
           env:
